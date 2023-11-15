@@ -1,0 +1,165 @@
+:root {
+  --main-chest: #faebd7;
+  --shoulder: #a52a2a;
+  --trapezius: #d2691e;
+  --biceps: #6495ed;
+  --forearms: #008b8b;
+  --abs: #86b233;
+  --external: #177c3e;
+  --abductors: #6922b2;
+  --quadriceps: rgb(44, 9, 80);
+  --shin: #a95aee;
+  --tfl: #f2f22f;
+  --triceps: #24b87d;
+  --lats: #11656e;
+  --lowerBack: #23554a;
+  --glutes: #2456eb;
+  --hamstring: #062583;
+  --calves: #bd069e;
+}
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  margin: 10px;
+}
+
+.containerExercise {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin: 20px;
+  padding-left: 30px;
+  width: 500px;
+}
+.item {
+  background-color: #f0ebe1;
+  margin-bottom: 5px;
+  padding: 10px 20px;
+}
+.title {
+  color: #85662b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+.containerExercise h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 2px;
+}
+.content {
+  color: #8b7f75;
+  max-height: 0;
+  overflow: hidden;
+  transform: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.content.show {
+  height: auto;
+  max-height: 9999px;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.containerExercise span {
+  font-size: 20px;
+}
+.containerExercise p {
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.chest:hover path,
+.chest.active path {
+  cursor: pointer;
+  fill: var(--main-chest);
+}
+.shoulder:hover path,
+.shoulder.active path {
+  cursor: pointer;
+  fill: var(--shoulder);
+}
+.biceps:hover path,
+.biceps.active path {
+  cursor: pointer;
+  fill: var(--biceps);
+}
+.forearms:hover path,
+.forearms.active path {
+  cursor: pointer;
+  fill: var(--forearms);
+}
+.abs:hover path,
+.abs.active path {
+  cursor: pointer;
+  fill: var(--abs);
+}
+.externalAbs:hover path,
+.externalAbs.active path {
+  cursor: pointer;
+  fill: var(--external);
+}
+.abductors:hover path,
+.abductors.active path {
+  cursor: pointer;
+  fill: var(--abductors);
+}
+.quadriceps:hover path,
+.quadriceps.active path {
+  cursor: pointer;
+  fill: var(--quadriceps);
+}
+.shin:hover path,
+.shin.active path {
+  cursor: pointer;
+  fill: var(--shin);
+}
+
+.tfl:hover path,
+.tfl.active path {
+  cursor: pointer;
+  fill: var(--tfl);
+}
+.trapezius:hover path,
+.trapezius.active path {
+  cursor: pointer;
+  fill: var(--trapezius);
+}
+
+.triceps:hover path,
+.triceps.active path {
+  cursor: pointer;
+  fill: var(--triceps);
+}
+.lats:hover path,
+.lats.active path {
+  cursor: pointer;
+  fill: var(--lats);
+}
+.lowerBack:hover path,
+.lowerBack.active path {
+  cursor: pointer;
+  fill: var(--lowerBack);
+}
+.glutes:hover path,
+.glutes.active path {
+  cursor: pointer;
+  fill: var(--glutes);
+}
+.hamstring:hover path,
+.hamstring.active path {
+  cursor: pointer;
+  fill: var(--hamstring);
+}
+.calves:hover path,
+.calves.active path {
+  cursor: pointer;
+  fill: var(--calves);
+}
