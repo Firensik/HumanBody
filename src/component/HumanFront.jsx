@@ -19,7 +19,6 @@ const HumanFront = () => {
     "glutes",
     "hamstring",
     "calves",
-
     "abs",
   ];
 
@@ -29,247 +28,353 @@ const HumanFront = () => {
       label: "Ez bar curl",
       mainMuscle: "biceps",
       otherMuscles: ["forearm"],
+      video: "https://www.youtube.com/embed/-gSM-kqNlUw?si=xlCSF-ftBj-fyfUw",
     },
     {
       id: 2,
       label: "Bench press",
       mainMuscle: "chest",
       otherMuscles: ["triceps", "shoulder"],
+      video: "https://www.youtube.com/embed/4Y2ZdHCOXok?si=gUmTOo2wUa3ETSCC",
     },
     {
       id: 3,
       label: "Incline bench press",
       mainMuscle: "chest",
       otherMuscles: ["triceps", "shoulder", "biceps"],
+      video: "https://www.youtube.com/embed/jPLdzuHckI8?si=BjD-Re2upuNKuvhd",
     },
     {
       id: 4,
       label: "Barbell overhead press",
       mainMuscle: "shoulder",
-      otherMuscles: ["triceps", "serratus anterior"],
+      otherMuscles: ["triceps"],
+      video: "https://www.youtube.com/embed/_RlRDWO2jfg?si=nzQl_Ml0ggClpwAW",
     },
     {
       id: 5,
       label: "Push-Up",
       mainMuscle: "chest",
       otherMuscles: ["triceps", "shoulder"],
+      video: "https://www.youtube.com/embed/MO10KOoQx5E?si=G6LBcTwJoseQyVZy",
     },
     {
       id: 6,
-      label: "Chest Fly",
+      label: "Dumbbell Chest Fly",
       mainMuscle: "chest",
       otherMuscles: ["biceps", "shoulder"],
+      video: "https://www.youtube.com/embed/Nhvz9EzdJ4U?si=WszerO5IbxRvzkhO",
     },
     {
       id: 7,
       label: "incline dumbbell curl",
       mainMuscle: "biceps",
       otherMuscles: ["forearm"],
+      video: "https://www.youtube.com/embed/aTYlqC_JacQ?si=a1GL0JGcZW3YQCym",
     },
     {
       id: 8,
       label: "Dumbbell forearm hammer curls",
-      mainMuscle: "forearms",
-      otherMuscles: ["-"],
+      mainMuscle: "biceps",
+      otherMuscles: ["forearm"],
+      video: "https://www.youtube.com/embed/CFBZ4jN1CMI?si=k_BwB6f-f4Ca_rG7",
     },
     {
       id: 9,
       label: "Wrist Roller",
       mainMuscle: "forearms",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/KCqs-5eWeRU?si=N2KPZL4vJavn-q5M",
     },
     {
       id: 10,
       label: "Shrug",
       mainMuscle: "trapezius",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/_t3lrPI6Ns4?si=sx80MjnZ5VuFMJKR",
     },
     {
       id: 11,
       label: "Upright row",
       mainMuscle: "trapezius",
       otherMuscles: ["shoulder", "biceps", "triceps"],
+      video: "https://www.youtube.com/embed/Rd5AsxOGqss?si=KsqpHxCaoXqIiFL2",
     },
     {
       id: 12,
       label: "Lateral Raise",
       mainMuscle: "shoulder",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/Z5FA9aq3L6A?si=9oIk0chZwrCNKfoX",
     },
     {
       id: 13,
       label: "Leg Raise",
       mainMuscle: "abs",
       otherMuscles: ["quads"],
+      video: "https://www.youtube.com/embed/Wp4BlxcFTkE?si=IWg5RGr7KH4E7CSB",
     },
     {
       id: 14,
       label: "Medicine Ball Russian Twist",
       mainMuscle: "externalAbs",
       otherMuscles: ["abs"],
+      video: "https://www.youtube.com/embed/0V-8kqnPPeM?si=aaq4nwLUTM2puhTH",
     },
     {
       id: 15,
       label: "Slow Hanging Leg Raises",
       mainMuscle: "abs",
       otherMuscles: ["externalAbs", "quads"],
+      video: "https://www.youtube.com/embed/RuIdJSVTKO4?si=wPYYpdY_gzkUrPZE",
     },
     {
       id: 16,
       label: "Dumbbell Side Bend",
       mainMuscle: "externalAbs",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/dL9ZzqtQI5c?si=pSwhaSkZ3jUOQIJt",
     },
     {
       id: 17,
       label: "Cossack Squat with weight",
       mainMuscle: "quadriceps",
       otherMuscles: ["glutes", "lowerback", "hamstring"],
+      video: "https://www.youtube.com/embed/XMXmm4TWwpA?si=drG7R-yCylFVi_Kg",
     },
     {
       id: 18,
       label: "Side Lunge (Weight Optional)",
       mainMuscle: "abductors",
-      otherMuscles: ["shoulder", "core", "biceps", "quads", "glutes"],
+      otherMuscles: ["shoulder", "abs", "biceps", "quads", "glutes"],
+      video: "https://www.youtube.com/embed/KXoVm0WXcfE?si=N81zVRzRle8LQFwu",
     },
     {
       id: 18,
       label: "CLAMSHELL WITH BANDS",
       mainMuscle: "tfl",
-      otherMuscles: ["glutes", "core"],
+      otherMuscles: ["glutes", "abs"],
+      video: "https://www.youtube.com/embed/m_ZPapmqeNM?si=w1Xi8zdbLc28b3Do",
     },
     {
       id: 19,
       label: "SIDESTEPS WITH BANDS",
       mainMuscle: "tfl",
-      otherMuscles: ["glutes", "core"],
+      otherMuscles: ["glutes", "abs"],
+      video: "https://www.youtube.com/embed/tbXhONGNbGQ?si=msQlWt2wr5v6Iiv6",
     },
     {
       id: 20,
       label: "Machine seated hip abduction",
       mainMuscle: "abductors",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/G_8LItOiZ0Q?si=w4B6sJLjUXP8SOcL",
     },
     {
       id: 20,
       label: "Barbell squat ",
       mainMuscle: "quadriceps",
-      otherMuscles: ["glutes", "core", "hamstring", "calf"],
+      otherMuscles: ["glutes", "abs", "hamstring", "calf"],
+      video: "https://www.youtube.com/embed/bEv6CCg2BC8?si=6bpYthPB2nAf7XAy",
     },
     {
       id: 21,
-      label: "resisted inversion ",
+      label: "Resisted Inversion ",
       mainMuscle: "shin",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/C24Viu-Dp4U?si=dLBxCs7t9YrQoevz",
     },
     {
       id: 22,
-      label: "Kettlebell Toe Raises",
+      label: "Band Toe Raises",
       mainMuscle: "shin",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/il8mtZpC_p8?si=nNkaP_qWuF09PXlb",
     },
     {
       id: 23,
-      label: "Dumbbell Skullcrusher",
+      label: "Dumbbell Skull Crusher",
       mainMuscle: "triceps",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/jO2Jl9eZpXk?si=CXLt9IHii6UEw_BT",
     },
     {
       id: 24,
       label: "Cable Triceps Pushdown ",
       mainMuscle: "triceps",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/y6EdXBdL75A?si=u3FiisMk0GgoLdWS",
     },
     {
       id: 25,
       label: "Pull-Up",
       mainMuscle: "lats",
-      otherMuscles: ["core"],
+      otherMuscles: ["abs", "biceps"],
+      video: "https://www.youtube.com/embed/Hdc7Mw6BIEE?si=PyE3COkPF8rqTnyq",
     },
     {
       id: 26,
       label: "Dumbbell pull-over",
       mainMuscle: "lats",
-      otherMuscles: ["core", "chest", "triceps", "shoulder"],
+      otherMuscles: ["abs", "chest", "triceps", "shoulder"],
+      video: "https://www.youtube.com/embed/jQjWlIwG4sI?si=3ZZPp0Co12eemH4z",
     },
     {
       id: 27,
       label: "Deadlift (conventional)",
       mainMuscle: "lowerBack",
-      otherMuscles: ["core", "traps", "glutes", "hamstring", "forearm"],
+      otherMuscles: ["abs", "traps", "glutes", "hamstring", "forearm"],
+      video: "https://www.youtube.com/embed/VL5Ab0T07e4?si=3DJcjOPOIX6GG6pz",
     },
     {
       id: 28,
       label: "Hyperextensions",
       mainMuscle: "lowerBack",
       otherMuscles: ["traps", "glutes", "hamstring"],
+      video: "https://www.youtube.com/embed/J46aPqFl0WE?si=xZGc7p7cNygtSKB7",
     },
     {
       id: 29,
       label: "Romanian deadlift",
       mainMuscle: "glutes",
-      otherMuscles: ["hamstring", "core"],
+      otherMuscles: ["hamstring", "abs"],
+      video: "https://www.youtube.com/embed/_oyxCn2iSjU?si=rElI-g8VsjiIR6Wv",
     },
     {
       id: 30,
       label: "Hip thrust",
       mainMuscle: "glutes",
-      otherMuscles: ["quads", "hamstring", "core"],
+      otherMuscles: ["quads", "hamstring", "abs"],
+      video: "https://www.youtube.com/embed/EF7jXP17DPE?si=epalJEuLU_n7v8jU",
     },
     {
       id: 31,
       label: "Standing leg curls",
       mainMuscle: "hamstring",
-      otherMuscles: ["claves"],
+      otherMuscles: ["calves"],
+      video: "https://www.youtube.com/embed/N6FVnaasdq0?si=sR7QcX-QqKruZI0r",
     },
     {
       id: 32,
       label: "Lying leg curls",
       mainMuscle: "hamstring",
-      otherMuscles: ["claves"],
+      otherMuscles: ["calves"],
+      video: "https://www.youtube.com/embed/SbSNUXPRkc8?si=8Et2pVAQ40APSkNP",
     },
     {
       id: 33,
       label: "Standing machine calf raises",
       mainMuscle: "calves",
       otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/g_E7_q1z2bo?si=kY0d2yzUPCxY3ILK",
     },
     {
       id: 34,
       label: "Barbell calf raises",
       mainMuscle: "calves",
-      otherMuscles: ["core"],
+      otherMuscles: ["-"],
+      video: "https://www.youtube.com/embed/SpwcssWT0p4?si=sXX68fcjoAeA_jqK",
     },
   ];
 
   const [selectedMuscleGroup, setSelectedMuscleGroup] = useState(null);
   const [selectedItem, setSelectedItem] = useState(null);
   const [isActive, setIsActive] = useState(false);
+  const [otherMuscleColor, setOtherMuscleColor] = useState({
+    forearm: "black",
+    shoulder: "black",
+    triceps: "black",
+    biceps: "black",
+    quads: "black",
+    externalAbs: "black",
+    abs: "black",
+    lowerback: "black",
+    hamstring: "black",
+    core: "black",
+    calves: "black",
+    chest: "black",
+    traps: "black",
+    shin: "black",
+    abductors: "black",
+    lats: "black",
+    tfl: "black",
+    glutes: "black",
+  });
 
   const handleMuscle = (part) => {
     const foundMuscle = musclePart.find((el) => el === part);
-    console.log(foundMuscle);
 
     const results = exercises.filter(function (el) {
       return el.mainMuscle === part;
     });
-    // console.log(results);
 
     setSelectedMuscleGroup({
       foundMuscle: foundMuscle,
       exercises: results,
     });
-    console.log(foundMuscle);
 
     setIsActive((previsActive) =>
       previsActive === part ? !previsActive : part
     );
+    setOtherMuscleColor({
+      forearm: "black",
+      shoulder: "black",
+      triceps: "black",
+      biceps: "black",
+      quads: "black",
+      externalAbs: "black",
+      abs: "black",
+      lowerback: "black",
+      hamstring: "black",
+      abs: "black",
+      calves: "black",
+      chest: "black",
+      traps: "black",
+      lats: "black",
+      shin: "black",
+      tfl: "black",
+      abductors: "black",
+      glutes: "black",
+    });
   };
 
-  const toggle = (i) => {
+  const toggle = (i, label) => {
     setSelectedItem((prevSelectedItem) => (prevSelectedItem === i ? null : i));
+    setOtherMuscleColor({
+      forearm: "black",
+      shoulder: "black",
+      triceps: "black",
+      biceps: "black",
+      quads: "black",
+      externalAbs: "black",
+      abs: "black",
+      lowerback: "black",
+      hamstring: "black",
+      abs: "black",
+      calves: "black",
+      chest: "black",
+      traps: "black",
+      lats: "black",
+      shin: "black",
+      tfl: "black",
+      abductors: "black",
+      glutes: "black",
+    });
+    const exerciseLabel = exercises.filter((el) => el.label === label);
+
+    const findOtherMuscle = exerciseLabel.find((el) => el.otherMuscles);
+
+    if (findOtherMuscle && findOtherMuscle.otherMuscles) {
+      const colorMuscles = findOtherMuscle.otherMuscles;
+      colorMuscles.forEach((muscle) => {
+        setOtherMuscleColor((prevColors) => ({
+          ...prevColors,
+          [muscle]: "IndianRed",
+        }));
+      });
+    }
   };
-  console.log(selectedItem);
+
   return (
     <div className="wrapper">
       <div className="container">
@@ -294,12 +399,12 @@ const HumanFront = () => {
           >
             <path
               d="M121.251 126.99C121.251 126.99 76.794 105.771 61.401 141C54.906 154.489 58.803 195.134 59.003 197.132C59.102 198.431 71.792 169.755 82.683 163.66C84.581 162.661 82.183 134.784 121.251 126.99Z"
-              fill="black"
+              fill={otherMuscleColor.shoulder || "black"}
             />
 
             <path
               d="M179.502 126.99C179.502 126.99 222.315 104.33 240 141C246.495 154.489 241.951 195.134 241.751 197.132C241.651 198.431 228.961 169.755 218.07 163.66C216.172 162.661 218.57 134.784 179.502 126.99Z"
-              fill="black"
+              fill={otherMuscleColor.shoulder || "black"}
             />
           </g>
 
@@ -309,12 +414,12 @@ const HumanFront = () => {
           >
             <path
               d="M84.7001 164.6C84.7001 164.6 88.5001 223 84.1001 225.6C79.0001 228.6 76.3001 257.4 76.3001 257.4C76.3001 257.4 73.7001 250.1 70.8001 250.4C67.9001 250.7 62.4001 256.2 61.2001 258.2C60.1001 260.1 43.1001 198 84.7001 164.6Z"
-              fill="black"
+              fill={otherMuscleColor.biceps || "black"}
             />
 
             <path
               d="M217.9 172.2C217.9 172.2 214.1 230.6 218.6 233.2C223.7 236.2 226.4 265 226.4 265C226.4 265 229 257.7 231.9 258C234.8 258.3 240.3 263.8 241.5 265.8C242.6 267.7 259.6 205.6 217.9 172.2Z"
-              fill="black"
+              fill={otherMuscleColor.biceps || "black"}
             />
           </g>
           <g
@@ -323,11 +428,11 @@ const HumanFront = () => {
           >
             <path
               d="M143.2 134C142.1 147.9 150.2 165.1 150.3 175.5C150.4 189.5 149.2 200.9 124.3 203.7C104.4 205.9 99.9 197.7 93.4 193.5C89.4 190.9 88.1 164.4 84.5 160.4C82 157.7 98.4 129.4 121.1 129.6C143.9 129.8 143.5 131 143.2 134Z"
-              fill="black"
+              fill={otherMuscleColor.chest}
             />
             <path
               d="M157.4 134C158.5 147.9 150.4 165.1 150.3 175.5C150.2 189.5 151.4 200.9 176.3 203.7C196.2 205.9 200.7 197.7 207.2 193.5C211.2 190.9 212.5 164.4 216.2 160.4C218.7 157.7 202.3 129.4 179.6 129.6C156.8 129.8 157.2 131 157.4 134Z"
-              fill="black"
+              fill={otherMuscleColor.chest}
             />
           </g>
           <g
@@ -338,11 +443,11 @@ const HumanFront = () => {
           >
             <path
               d="M122.2 213C122.2 213 127.1 323.6 122.2 327.6C117.4 331.6 116.4 305.5 98.6 302.6C95.3 302 98 242.7 90.1 228.5C82.1 214.3 118.8 208.4 122.2 213Z"
-              fill="black"
+              fill={otherMuscleColor.externalAbs}
             />
             <path
               d="M177.5 213C177.5 213 172.6 323.6 177.5 327.6C182.3 331.6 183.3 305.5 201.1 302.6C204.4 302 201.7 242.7 209.6 228.5C217.6 214.3 180.9 208.4 177.5 213Z"
-              fill="black"
+              fill={otherMuscleColor.externalAbs}
             />
           </g>
           <g
@@ -353,11 +458,11 @@ const HumanFront = () => {
           >
             <path
               d="M106.863 327.624C106.863 327.624 143.932 409.755 141.134 448.223C138.337 486.691 134 499.208 134 509C134 518.792 136.838 495.184 124.548 495.084C110.16 494.985 99.469 506.675 95.572 519.464C94.973 521.263 93.574 482.994 93.574 482.994C93.574 482.994 89.397 472.403 86 437.033C80.904 383.277 119.552 363.993 106.863 327.624Z"
-              fill="black"
+              fill={otherMuscleColor.quads}
             />
             <path
               d="M192.991 327.624C192.991 327.624 154.523 409.755 157.321 448.223C161.294 477.688 167 499.208 167 509C167 518.792 165.814 495.184 178.104 495.084C192.492 494.985 200.385 506.675 204.282 519.464C204.881 521.263 207.279 482.994 207.279 482.994C207.279 482.994 211.603 470.371 215 435C219.996 381.245 180.202 363.993 192.991 327.624Z"
-              fill="black"
+              fill={otherMuscleColor.quads}
             />
           </g>
           <path
@@ -374,11 +479,11 @@ const HumanFront = () => {
           >
             <path
               d="M95.7 563.1C95.7 563.1 111.8 548.1 125.3 566.4C125.3 566.4 116.6 636 122.2 654.4C122.3 654.3 102 607 95.7 563.1Z"
-              fill="black"
+              fill={otherMuscleColor.shin}
             />
             <path
               d="M205.5 563.1C205.5 563.1 189.4 548.1 175.9 566.4C175.9 566.4 184.6 636 179 654.4C179 654.3 199.3 607 205.5 563.1Z"
-              fill="black"
+              fill={otherMuscleColor.shin}
             />
           </g>
           <path
@@ -395,11 +500,11 @@ const HumanFront = () => {
           >
             <path
               d="M50.1 260.4C50.1 260.4 69.3 265.3 73.5 278.2C73.5 278.2 66.6 303.1 48.2 332C48.2 332 45.2 333.4 36.6 328C36.5 327.9 42 274.7 50.1 260.4Z"
-              fill="black"
+              fill={otherMuscleColor.forearm}
             />
             <path
               d="M250.7 264.8C250.7 264.8 231.5 269.7 227.3 282.6C227.3 282.6 234.2 307.5 252.6 336.4C252.6 336.4 255.6 337.8 264.2 332.4C264.3 332.3 258.8 279 250.7 264.8Z"
-              fill="black"
+              fill={otherMuscleColor.forearm}
             />
           </g>
           <g
@@ -408,11 +513,11 @@ const HumanFront = () => {
           >
             <path
               d="M205 311.3L191.5 324.1C191.5 324.1 225 369.9 222.7 381.9C222.7 381.9 227 336.7 205 311.3Z"
-              fill="black"
+              fill={otherMuscleColor.tfl}
             />
             <path
               d="M92.974 313.236L106.163 326.025C106.163 326.025 78.755 368.681 80 383.677C80 383.777 71.697 356.526 92.974 313.236Z"
-              fill="black"
+              fill={otherMuscleColor.tfl}
             />
           </g>
           <g
@@ -421,11 +526,11 @@ const HumanFront = () => {
           >
             <path
               d="M115.955 331.42C115.955 331.42 143.932 416.919 143.332 440L147 410.555L149.827 375.584C149.827 375.584 139.036 339.714 118.553 327.124C118.653 327.124 115.256 326.524 115.955 331.42Z"
-              fill="black"
+              fill={otherMuscleColor.abductors}
             />
             <path
               d="M184.698 332.02C184.698 332.02 155.7 416.819 156 440L152 410.555L150.926 375C150.926 375 161.517 340.113 182.1 327.723C182.1 327.723 185.497 327.124 184.698 332.02Z"
-              fill="black"
+              fill={otherMuscleColor.abductors}
             />
           </g>
           <g
@@ -434,7 +539,7 @@ const HumanFront = () => {
           >
             <path
               d="M124.4 211.3C124.4 211.3 150 180.7 175.4 211.3C175.4 211.3 177.1 307.8 170.4 332.3C170.4 332.3 149.9 349.6 129 332.3C128.9 332.4 122.9 286 124.4 211.3Z"
-              fill="black"
+              fill={otherMuscleColor.abs}
             />
           </g>
           <g
@@ -443,11 +548,11 @@ const HumanFront = () => {
           >
             <path
               d="M140 115C135.107 123.251 114.495 121.197 108 117C130.757 120.303 130.597 83.127 127 79.13C129.723 77.331 144.199 100.155 140 115Z"
-              fill="black"
+              fill={otherMuscleColor.traps}
             />
             <path
               d="M160.357 115C167.432 121.937 184.698 121.197 191.193 117C168.436 120.303 168.596 83.127 172.193 79.13C169.469 77.331 156.157 100.155 160.357 115Z"
-              fill="black"
+              fill={otherMuscleColor.traps}
             />
           </g>
           <path
@@ -479,7 +584,7 @@ const HumanFront = () => {
           >
             <path
               d="M144.5 260.3C144.8 261.6 147.1 250 149.9 251.3C152.8 252.6 156.3 260.3 156.3 260C155.4 250.5 163.9 235.8 170.1 225.7C176.8 214.8 180.3 214.2 184.8 200.1C186.6 194.5 184.8 157.8 192.5 144.3C200.2 130.8 205.6 132.2 211.4 128.9C212.7 128.2 164.2 124.3 160 91.6C159.3 86.2 159.3 81.3 160.1 76.3C161 71.4 134.9 69.4 133.5 76C131.4 86.1 149.4 115 88 124.4C83.7 125.1 100.7 131.6 110.1 145.9C112.4 149.4 112.3 157.6 119.4 203.9C121 214.3 141.4 244.9 144.5 260.3Z"
-              fill="black"
+              fill={otherMuscleColor.traps}
             />
           </g>
           <g
@@ -488,11 +593,11 @@ const HumanFront = () => {
           >
             <path
               d="M160.966 257.182C160.966 257.182 178.551 275.067 180.45 285.758C182.348 296.449 182.348 312.736 191.541 311.237C191.641 311.237 188.443 307.241 192.64 299.947C207.228 274.867 206.628 245.692 206.628 245.692L207.927 199.93C207.927 199.93 199.334 202.827 188.543 195.733C186.345 194.334 187.644 212.319 177.252 221.712C172.856 225.508 156.77 246.491 160.966 257.182Z"
-              fill="black"
+              fill={otherMuscleColor.lats}
             />
             <path
               d="M138.185 257.182C138.185 257.182 120.6 275.067 118.701 285.758C116.803 296.449 119.201 311.499 110.008 310C109.908 310 110.708 307.241 106.511 299.947C91.923 274.867 91.224 245.692 91.224 245.692V202C91.224 202 99.817 202.827 110.608 195.733C112.806 194.334 111.507 212.319 121.898 221.712C126.295 225.508 142.381 246.491 138.185 257.182Z"
-              fill="black"
+              fill={otherMuscleColor.lats}
             />
           </g>
           <g
@@ -501,12 +606,12 @@ const HumanFront = () => {
           >
             <path
               d="M210.825 165.958C210.825 165.958 223.714 158.364 228.31 160.562C232.906 162.761 241.299 176.749 242.298 182.544C240.994 197.329 245 234.101 245 234.101C245 234.101 245.895 239.896 241.299 241.295C236.803 242.694 237.403 229.405 234.005 227.906C230.608 226.408 233.805 238.198 230.408 239.197C227.011 240.096 216.92 236 216.92 236L209.326 217.015C209.226 217.015 216.42 176.149 210.825 165.958Z"
-              fill="black"
+              fill={otherMuscleColor.triceps}
             />
 
             <path
               d="M87.727 165.059C87.727 165.059 74.838 157.365 70.241 159.563C65.645 161.761 57.252 175.95 56.253 181.845C56.702 199.289 54 233 54 233C54 233 52.6561 239.896 57.2521 241.295C61.7481 242.694 61.149 229.205 64.546 227.707C67.943 226.208 64.746 238.198 68.143 239.097C71.54 239.996 81.632 235.9 81.632 235.9L89.2261 216.716C89.3261 216.716 82.132 175.35 87.727 165.059Z"
-              fill="black"
+              fill={otherMuscleColor.triceps}
             />
           </g>
           <g
@@ -515,12 +620,12 @@ const HumanFront = () => {
           >
             <path
               d="M98.4 307.3C101.2 306.8 145.5 328.9 147.9 363.1C150.3 397.2 123.8 409.5 101.4 403.5C79 397.5 80.7 370.8 81.3 364.4C81.7 359.8 85.7 349.5 89.3 324.6C90 320.2 95.6 307.8 98.4 307.3Z"
-              fill="black"
+              fill={otherMuscleColor.glutes}
             />
 
             <path
               d="M206.8 311.5C204.3 310.5 159.6 323.8 151.2 356.8C142.9 389.8 165.1 406.9 186.8 405.3C208.5 403.7 211.7 377.2 212.3 370.8C212.7 366.2 210.9 355.4 212 330.2C212.2 325.8 209.3 312.5 206.8 311.5Z"
-              fill="black"
+              fill={otherMuscleColor.glutes}
             />
           </g>
           <g
@@ -529,11 +634,11 @@ const HumanFront = () => {
           >
             <path
               d="M159.967 406.958C159.967 406.958 202.831 408.656 209.626 402.661C216.42 396.666 215.221 436.335 206.628 478C200.68 519.076 204.199 520.099 203 519C193.352 511.801 189.942 493.386 189.342 493.885C188.843 494.285 169.559 522.761 172.656 544.943C172.856 546.242 156.698 444.227 154 431.837C151.202 419.647 149.436 407.108 159.967 406.958Z"
-              fill="black"
+              fill={otherMuscleColor.hamstring}
             />
             <path
               d="M138.685 406.958C138.685 406.958 96.0201 408.656 89.2261 402.661C82.4311 396.666 82.631 435.334 91.224 476.999C96.501 516.507 93.801 521.099 95 520C103.559 513.762 108.809 493.386 109.409 493.885C109.908 494.285 129.093 522.761 125.995 544.943C125.795 546.242 141.682 438.39 144.38 426C147.078 413.81 147.277 407.357 138.685 406.958Z"
-              fill="black"
+              fill={otherMuscleColor.hamstring}
             />
           </g>
           <g
@@ -542,11 +647,11 @@ const HumanFront = () => {
           >
             <path
               d="M190.741 523.96C190.741 523.96 171.257 548.64 169.959 558.732C166.885 577.676 171.198 614.534 171.957 625.976C174.655 632.17 187.944 612.187 191.241 599.697C194.538 587.208 187.707 611.288 196 620.28C197.399 621.779 212.762 571.402 209.326 554C205.534 536.504 204.135 536.504 203 529C202.567 512.978 195.837 523.96 194.238 531.354C192.64 538.748 190.741 523.96 190.741 523.96Z"
-              fill="black"
+              fill={otherMuscleColor.calves}
             />
             <path
               d="M108.51 523.96C108.51 523.96 127.701 549.908 129 560C130.511 584.826 126.89 611.005 125.995 625.976C123.297 632.17 111.307 612.187 108.01 599.697C104.713 587.208 111.293 611.288 103 620.28C101.601 621.779 86.857 576.191 89.226 558.732C90.815 539.641 97.499 536.491 96 526C97.089 517.291 103.414 523.96 105.013 531.354C106.611 538.748 108.51 523.96 108.51 523.96Z"
-              fill="black"
+              fill={otherMuscleColor.calves}
             />
           </g>
           <path
@@ -563,12 +668,12 @@ const HumanFront = () => {
           >
             <path
               d="M81.0001 126.8C81.0001 126.8 68.0001 126.8 59.1001 155.1C59.1001 155.1 76.1001 151.9 86.4001 161.2C86.4001 161.2 97.9001 151.1 95.5001 144C95.5001 144 98.5001 135.7 81.0001 126.8Z"
-              fill="black"
+              fill={otherMuscleColor.shoulder}
             />
 
             <path
               d="M218.6 127.8C218.6 127.8 231.6 127.8 240.5 156.1C240.5 156.1 223.5 152.9 213.2 162.2C213.2 162.2 201.7 152.1 204.1 145C204.1 145 201.1 136.7 218.6 127.8Z"
-              fill="black"
+              fill={otherMuscleColor.shoulder}
             />
           </g>
           <g
@@ -577,7 +682,7 @@ const HumanFront = () => {
           >
             <path
               d="M121.5 312.3C121.5 312.3 117.8 272.8 148.5 264.9C148.5 264.9 178.5 261.5 177.9 312.3C177.9 312.3 167.2 317.7 149.7 340.1C149.6 340.1 139.2 323.9 121.5 312.3Z"
-              fill="black"
+              fill={otherMuscleColor.lowerback}
             />
           </g>
           <path
@@ -603,7 +708,7 @@ const HumanFront = () => {
           <h1>{selectedMuscleGroup.foundMuscle}</h1>
           {selectedMuscleGroup.exercises.map((exercise, i) => (
             <div className="item" key={exercise.id}>
-              <div className="title" onClick={() => toggle(i)}>
+              <div className="title" onClick={() => toggle(i, exercise.label)}>
                 <h2>Exercise name: </h2>
                 <h2>{exercise.label}</h2>
                 <span>{selectedItem === i ? "-" : "+"}</span>
@@ -614,6 +719,17 @@ const HumanFront = () => {
               </div>
               <div className={selectedItem == i ? "content show" : "content"}>
                 <p>Other Muscles:{exercise.otherMuscles.join(", ")}</p>
+              </div>
+              <div className={selectedItem == i ? "content show" : "content"}>
+                <iframe
+                  width="500"
+                  height="280"
+                  src={selectedItem === i ? exercise.video : ""}
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
               </div>
             </div>
           ))}
